@@ -302,7 +302,7 @@ async def help(ctx):
     embed.add_field(name='!setpoints <number>', value='Sets the amount of points the counter emoji adds to each users score', inline = False)
     embed.add_field(name='!top <role>*', value='Shows a scoreboard of users in the server', inline= False)
     embed.add_field(name= '!log <user>', value= 'Shows a history of awarded points to user with notes')
-    embed.add_field(name= '!clearlog<user>*', value= 'Clears entire point hitory log. If a user is specified, only clears log for that user', inline= False)
+    embed.add_field(name= '!clearlog<user>*', value= 'Clears entire point history log. If a user is specified, only clears log for that user', inline= False)
     embed.add_field(name= '!reset', value= 'Resets everyones points to 0. Clears entire point history log')
     await ctx.channel.send(embed=embed)
 
